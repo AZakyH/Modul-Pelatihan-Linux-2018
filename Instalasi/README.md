@@ -1,10 +1,8 @@
 # Instalasi
 
 ### 1. Persiapan
-- USB Flashdisk (minimal 4GB)
-- Rufus (atau software lainnya untuk membuat perangkat USB Flashdisk menjadi bootable)
-- ISO Ubuntu 16.04 LTS
-- Installer VirtualBox
+- File ISO Ubuntu 16.04 LTS ([Download](assets/ubuntu-16.04.5-desktop-amd64.iso))
+- Installer VirtualBox ([Download](assets/VirtualBox-5.2.22-126460-Win.exe))
 
 ### 2. Teknik Instalasi
 Jika hendak menggunakan lebih dari satu sistem operasi atau sering disebut OS(operating system) pada suatu komputer biasanya ada dua pilihan teknik instalasi, yaitu **dual-boot** atau **virtualisasi**.
@@ -85,5 +83,5 @@ Setelah berhasil membuat virtual machine, selanjutnya kita menginstall Ubuntu 16
 
 
 ##### Referensi
-https://abrari.wordpress.com/2009/12/12/dual-booting-vs-virtualisasi/
-https://id.wikihow.com/Memasang-Ubuntu-di-VirtualBox
+- https://abrari.wordpress.com/2009/12/12/dual-booting-vs-virtualisasi/
+- https://id.wikihow.com/Memasang-Ubuntu-di-VirtualBox
