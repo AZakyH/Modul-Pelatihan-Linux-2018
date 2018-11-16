@@ -9,7 +9,9 @@
 ### 2. Teknik Instalasi
 Jika hendak menggunakan lebih dari satu sistem operasi pada suatu komputer biasanya ada dua pilihan teknik instalasi, yaitu **dual-boot** atau **virtualisasi**.
 **Dual-boot** adalah teknik menginstall dua atau lebih sistem operasi pada satu komputer, dimana masing-masing sistem operasi berjalan secara mandiri. Pengguna hanya dapat menggunakan salah satu dalam satu watu, dengan cara memilih sistem operasi yang akan dipakai ketika menyalakan komputer.
+
 ![Tampilan GRUB Dual Boot Linux(Ubuntu) dan Windows](img/tampilan_grub_dual_boot.png)
+
 Gambar 1. Tampilan GRUB Dual Boot Linux(Ubuntu) dan Windows
 (sumber : https://images.techhive.com/images/article/2015/07/boot-loader-100599648-orig.png)
 
