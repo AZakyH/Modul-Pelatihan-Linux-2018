@@ -6,4 +6,4 @@ Peserta sudah harus menginstall VirtualBox yang dapat di-download melalui <inser
 1. [Pengenalan Linux](Pengenalan/README.md)
 2. [Instalasi](Instalasi/README.md)
 3. [Konsep](Konsep/README.md)
-4. [CLI](../blob/master/CLI/README.md)
+4. [CLI](CLI/README.md)
