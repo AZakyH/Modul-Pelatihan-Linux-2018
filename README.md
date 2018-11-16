@@ -2,6 +2,6 @@
 ## Persiapan
 Peserta sudah harus menginstall VirtualBox yang dapat di-download melalui <insert link>.
  
-##Materi
+## Materi
 1. [Pengenalan Linux]
 2. [CLI]
