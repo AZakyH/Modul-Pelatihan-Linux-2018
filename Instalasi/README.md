@@ -1,4 +1,9 @@
 # Instalasi
+Sub-materi
+1. [Persiapan](#1-persiapan)
+2. [Teknik Instalasi](#2-teknik-instalasi)
+3. [Membuat Virtual Machine](#3-membuat-virtual-machine)
+4. [Instalasi Ubuntu](#4-instalasi-ubuntu-1604)
 
 ### 1. Persiapan
 - File ISO Ubuntu 16.04 LTS ([Download](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso))
