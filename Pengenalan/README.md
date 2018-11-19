@@ -53,7 +53,7 @@ Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat
  8. Software bawaan sudah terinstall dan dapat digunakan dengan mudah
  9. Cocok bagi yang hobi melakukan utak atik komputer
  10. Cocok untuk dijadikan sebagai komputer server
- 11.  Spesifikasi hardware yang tidak terlalu besar
+ 11. Spesifikasi hardware yang tidak terlalu besar
  12. Penggunaan software linux akan mencegah user dari pembajakan hak cipta
 
 **Kekurangan Linux**  
@@ -62,7 +62,8 @@ Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat
  2. Dukungan software populer yang kurang
  3. Kalah bersaing dengan sistem operasi lainnya, sehingga terlihat inferior
  
-Referensi :
+ 
+Referensi :  
 [https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux](https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux)  
 [https://www.nesabamedia.com/distro-linux/](https://www.nesabamedia.com/distro-linux/)  
 https://id.wikipedia.org/wiki/Linux
