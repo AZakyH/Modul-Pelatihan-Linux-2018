@@ -5,6 +5,7 @@
 **Distro Linux** (singkatan dari **distribusi Linux**) adalah sebutan untuk sistem operasi komputer dan aplikasinya, merupakan keluarga yang menggunakan kernel Linux.
 
 **1. Red Hat**
+![Red Hat](img/RedHat-150x150  "Red Hat")
 Red Hat ini merupakan salah satu Distro Linux yang dikembangkan oleh salah satu perusahaan bernama Red Hat Inc dan seringkali juga disebut Red Hat Linux namun pada tahun 2003 diganti menjadi Red Hat Enterprise Linux khusus untuk lingkungan perusahaan. Sistem operasi yang satu ini juga yang pertama kali mempopulerkan penggunaan sistem _RPM Package Manager_.
 
 **2. CentOS**
