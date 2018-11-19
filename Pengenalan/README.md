@@ -21,7 +21,7 @@ Fedora ini merupakan salah satu Distro Linux yang dkembangkan karena disponsori 
 openSUSE ini juga termasuk salah satu sistem operasi yang didirikan diatas kernel Linux atau biasa disebut Distro Linux. openSUSE Project selaku pihak pengembang menciptakan sistem operasi ini dengan tujuan agar penggunaan Linux dapat lebih maju dengan kinerjanya yang stabil dan ramah pengguna. openSUSE ini lebih sering digunakan sebagai sistem operasi desktop/ server.
 
 **5. Mandrake (Mandriva)**  
-![Mandrake](img/Mandriva-150x150.jgp  "Mandrake")
+![Mandrake](img/mandriva-150x150.jgp  "Mandrake")
 Sistem operasi Mandrake atau yang juga bisa disebut Mandriva Linux merupakan salah satu jenis Distro Linux yang kali ini dikembangkan oleh suatu perusahaan bernama Mandriva. Sama halnya dengan Fedora, sistem operasi Mandrake ini juga menggunakan sistem _RPM Package Manager_.
 
 **6. Debian**  
@@ -37,7 +37,7 @@ Ubuntu merupakan suatu sistem operasi yang berbasiskan pada Debian dan dikembang
 Jika sebelumnya anda mengetahui bahwa Distro Linux yang bernama Ubuntu dibuat dengan berbasiskan pada Debian, maka kali ini ada Distro Linux yang berbasiskan pada Debian dan Ubuntu. Namanya adalah Mint atau yang biasa disebut Linux Mint.
 
 **9. Zorin**  
-[Zorin](img/zorin-150x150.jgp  "Zorin")
+![Zorin](img/zorin-150x150.jgp  "Zorin")
 Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat mirip dengan Windows, bahkan termasuk pada aplikasi – aplikasinya. Sejak awal tujuan pembuatan sistem operasi ini memang agar para pengguna yang terbiasa dengan Windows dapat menikmati fitur dari Linux tanpa harus mengalami kesulitan.
 
 ## Kelebihan dan kekurangan Linux
