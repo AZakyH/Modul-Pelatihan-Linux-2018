@@ -45,15 +45,19 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 1. klik ikon koneksi, lalu pilih 'edit'.
 
 ![](img/1.png)
+
 2. pilih 'wired connection 1' dan klik tombol 'edit'
 
 ![](img/2.png)
+
 3. pilih tab 'IPv4 Settings'
 
 ![](img/3.png)
+
 4. ubah metodenya menjadi manual, serta tambahkan alamat baru yang kita inginkan, serta atur DNS server serta search domain sesuai kebutuhan.
 
 ![](img/4.png)
+
 5. untuk mengaplikasikan perubahan silahkan lakukan koneksi ulang.
 
 
