@@ -5,7 +5,7 @@ sub-materi
 
 1.  [VirtualBox Networking Modes](#1-VirtualBox-Networking-Modes)
 
-2.  [Administrative Command](#2-Bridged-Networking-vs-NAT)
+2.  [Bridged Networking vs NAT](#2-Bridged-Networking-vs-NAT)
 
 3.  [Setting IP Address Statis](#3-Setting-IP-Address-Statis)
 
