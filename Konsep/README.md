@@ -41,10 +41,11 @@ Sedangkan pada Linux, jika kita ingin meng-copy, paste, atau mengedit file di da
   
 ### 2.2. Dimana file Repository itu berarda?  
 File Repository ini langsung otomatis berada di laptop atau PC kita saat kita sudah menginstall linux dengan nama file biasanya "sources.list", terletak di folder apt di dalam folder etc. Jika ingin melihat Repository milik kita hanya perlu mengetikan :  
-  
 
-> sudo gedit /etc/apt/sources.list
-  
+```sh
+$ sudo gedit /etc/apt/sources.list
+```
+
 Kita bisa melakukan edit seperti menambah, menghapus, mengganti Repostitory milik sobat sesuai yang sobat inginkan.  
   
 ### 2.3. Apakah Repository itu Penting?  
