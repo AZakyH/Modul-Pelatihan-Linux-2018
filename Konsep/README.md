@@ -1,5 +1,6 @@
+
 # Konsep
-sub-materi
+Sub-Materi
 1. [Struktur Folder](#1-Struktur-Folder)
 2. [Repository](#2-Repository)
 
@@ -46,13 +47,14 @@ File Repository ini langsung otomatis berada di laptop atau PC kita saat kita su
 $ sudo gedit /etc/apt/sources.list
 ```
 
-Kita bisa melakukan edit seperti menambah, menghapus, mengganti Repostitory milik sobat sesuai yang sobat inginkan.  
+Kita bisa melakukan edit seperti menambah, menghapus, mengganti Repostitory milik kita sesuai yang kita inginkan.  
   
 ### 2.3. Apakah Repository itu Penting?  
-Adanya Repository di linux itu sangatlah _**Penting**_, karena itu adalah tempatnya paket-paket software untuk linux itu sendiri, kita hanya perlu langsung menginstall tanpa harus cari lagi paket softwarenya karena sudah tersedia di Repository tersebut. walau pun kita bisa juga mencar paket softwarenya secara manual dan menginstallnya juga, tetapi cara tersebut cukup ribet dan akan banyak memakan waktu. 
+Adanya Repository di linux itu sangatlah _**Penting**_, karena itu adalah tempatnya paket-paket software untuk linux itu sendiri, kita hanya perlu langsung menginstall tanpa harus cari lagi paket softwarenya karena sudah tersedia di Repository tersebut. walau pun kita bisa juga mencari paket softwarenya secara manual dan menginstallnya juga, tetapi cara tersebut cukup ribet dan akan banyak memakan waktu. 
   
 ### 2.4. Apakah semua Paket software ada di Repository? 
 Tidak semua paket software langsung ada di repository, itu sebabnya kita harus tau nama file repository dan letaknya dimana, karena jika kita akan menginstall suatu software dan aplikasi, kemudian di Repository ternyata paketnya belum ada, kita bisa mencari repositorynya dan menambahkannya di di Repository kita dengan mengedit file sources.list tadi, yang berada di directory sudo gedit /etc/apt/sources.list.
 
 #### Referensi
 - http://2010183ifunsika.blogspot.com/2012/10/analisis-struktur-sistem-linux-dan.html
+- http://www.belkomindo.com/2015/12/apasih-repository-itu.html
