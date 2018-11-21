@@ -7,6 +7,19 @@ Sub-Materi
 
 ## 1. Basic Command
 ## 2. Administrative Command
+
+##### 24. vim
+vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
+Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
+###### 1. Install vim teks editor
+```sh
+$ sudo apt-get update
+```
+```sh
+$ sudo apt-get install -y vim
+```
+instalasi akan berjalan, dan setelah vim terinstall akan terlihat output seperti ini:
+
 ## 3. Export Variable
 ## 4. Menginstall Software
 
