@@ -251,7 +251,7 @@ atau
 ```sh
 $ export | grep EDITOR
 ```
-
+![export1](img/export1.png)
 
 ##### Me-remove variable dari export list
 Digunakan option `-n`
