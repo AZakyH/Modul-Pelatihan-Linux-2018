@@ -21,25 +21,44 @@ Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 
 ##### 3. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
-Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`.
+Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
 ![ls -a](img/cd.png)
 Contoh lain:
 + `cd` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
 + `cd ..` untuk pindah ke parent directory dari directory sekarang
 + `cd -` untuk pindah ke working directory sebelumnya 
-##### 4. cp
-*copy*
-##### 5. mv
-*Move* Digunakan untuk memindahkan suatu file ke directory lain. Selain itu *mv* dapat juga digunakan untuk me-rename file.
-##### 6. mkdir
-*make directory*
-##### 7. rm
-*remove*
-##### 8. rmdir
-*remove directory*
-##### 9. cat
-*concatenate*
+ 
+##### 4. mkdir
+*make directory*. Digunakan untuk membuat sebuah directory (folder).
+Syntax-nya adalah `mkdir [namadirectory]`
+![mkdir](img/mkdir.png)
+
+##### 5. cp
+*copy*. Digunakan untuk menyalin (meng-copy) file.
+Syntax-nya adalah `cp [namafile] [namacopyannya]`
+![ls -a](cp.png)
+
+##### 6. mv
+*Move* Digunakan untuk memindahkan suatu file ke directory lain.
++ Untuk memindahkan file, syntax-nya adalah `mv [namafile] [pathbarunya]`
++ Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah `mv [namafile] [namabaru]`
+![mv](img/mv.png)
+
+##### 7. cat
+*concatenate*. Digunakan untuk menampilkan isi dari suatu file.
+![cat](img/cat.png)
+
+##### 8. rm
+*remove*. Digunakan untuk menghapus suatu file.
+![rm](img/rm.png)
+Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
+![rm -r](img/rm_r.png)
+
+##### 9. rmdir
+*remove directory*. Digunakan untuk menghapus directory yang kosong.
+![rmdir](img/rmdir.png)
+
 ##### 10. echo
 ##### 11. grep
 ##### 12. tar
@@ -47,12 +66,15 @@ Contoh lain:
 Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah `zip [namafilezip] [file1] [file2]`.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
+
 ##### 14. unzip
 Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
 Syntax-nya adalah `unzip [namafilezip]`.
 Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
+
 ##### 15. exit
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
+
 ##### 16. clear
 Digunakan untuk 'membersihkan' isi layar terminal.
 Sebelum clear:
