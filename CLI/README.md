@@ -12,7 +12,7 @@ Sub-Materi
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
-![ls](img/ls.png)
+![ls](img/ls.png)  
 Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
 ![ls -a](img/ls_a.png)
@@ -21,8 +21,8 @@ Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 
 ##### 3. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
-Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
-![cd](img/cd.png)
+Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`  
+![cd](img/cd.png)  
 Contoh lain:
 + `cd` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
@@ -51,7 +51,7 @@ Syntax-nya adalah `cp [namafile] [namacopyannya]`
 
 ##### 8. rm
 *remove*. Digunakan untuk menghapus suatu file.
-![rm](img/rm.png)
+![rm](img/rm.png)  
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
 ![rm -r](img/rm_r.png)
 
@@ -76,10 +76,10 @@ Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip ener
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
 
 ##### 16. clear
-Digunakan untuk 'membersihkan' isi layar terminal.
-Sebelum clear:
-![clear1](img/sebelumclear.png)
-Sesudah clear:
+Digunakan untuk 'membersihkan' isi layar terminal.  
+Sebelum clear:  
+![clear1](img/sebelumclear.png)  
+Sesudah clear:  
 ![clear2](img/sesudahclear.png)
 
 ##### 17. mount
