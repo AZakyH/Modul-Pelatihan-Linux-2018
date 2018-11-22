@@ -99,7 +99,7 @@ Sesudah clear:
 
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
-![tree](img/tree.png)
+[tree](img/tree.png)
 
 ### 2. Administrative Command
 ###### 1. su
@@ -121,7 +121,7 @@ Digunakan untuk meng-*update* password user.
 Digunakan untuk mengubah izin akses dari suatu dokumen.
 
 
-### 3. File Editing
+### 3.  File Editing
 ##### 24. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
 Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
@@ -195,8 +195,26 @@ $ gedit cobagedit.txt nyobajuga.txt
 ![gedit2](img/gdit2.png)
 
 ##### 26. nano
+Nano atau *Nano's ANOther editor* merupakan teks editor yang dikembangkan mirip dengan teks editor *Pico* yang menjadi editor default dari Pine. Nano termasuk teks editor yang *user-friendly* karena adanya *shortcut* pada bagian bawah editor sehingga memudahkan pengguna dalam menggunakan teks editor ini.
+Syntax yang biasa digunakan 
+```sh
+$ sudo nano [nama-file]
+```
+Command tersebut akan memunculkan default nano-screen
+
+Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
+
+Ketika `Ctrl+x` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `y`, `Y` untuk menyimpan perubahan dari file, dan `n` atau `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
+
+Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
+
 
 ##### 27. touch
+Digunakan untuk membuat sebuah file. Syntax yang digunakan 
+```sh
+$ touch [nama-file]
+```
+
 
 ### 4. Export Variable
 
