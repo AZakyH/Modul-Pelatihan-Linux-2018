@@ -17,12 +17,12 @@ Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
 ![ls -a](img/ls_a.png)
 - Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
-![ls -a](img/ls_l.png)
+![ls -l](img/ls_l.png)
 
 ##### 3. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
-![ls -a](img/cd.png)
+![cd](img/cd.png)
 Contoh lain:
 + `cd` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
@@ -37,7 +37,7 @@ Syntax-nya adalah `mkdir [namadirectory]`
 ##### 5. cp
 *copy*. Digunakan untuk menyalin (meng-copy) file.
 Syntax-nya adalah `cp [namafile] [namacopyannya]`
-![ls -a](cp.png)
+![cp](img/cp.png)
 
 ##### 6. mv
 *Move* Digunakan untuk memindahkan suatu file ke directory lain.
@@ -78,8 +78,10 @@ Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat mel
 ##### 16. clear
 Digunakan untuk 'membersihkan' isi layar terminal.
 Sebelum clear:
-
+![clear1](img/sebelumclear.png)
 Sesudah clear:
+![clear2](img/sesudahclear.png)
+
 ##### 17. mount
 ##### 18. tree
 
