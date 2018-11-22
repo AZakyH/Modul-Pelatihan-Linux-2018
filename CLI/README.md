@@ -177,7 +177,7 @@ $ vimtutor
 
 ##### 2. gedit
 Gedit atau *Gnome-Text-Editor* adalah teks editor untuk GNOME desktop dan dapat digunakan untuk mengedit teks jenis apapun.
-Syntax yang biasa digunakan untuk menjalankan tek editor ini adalah 
+Syntax yang biasa digunakan untuk menjalankan teks editor ini adalah 
 ```sh
 $ gedit [nama-file]
 ```
@@ -215,7 +215,7 @@ Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
 
 ![nano3](img/nano3.png)
 
-Ketika `Ctrl+x` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
+Ketika `Ctrl+X` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
 
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
 ![nano4](img/nano4.png)
@@ -248,7 +248,7 @@ pada terminal ketikkan command
 ```sh
 $ export EDITOR=/usr/bin/vim
 ```
-Untuk cek hasil export variabel tersebut dapat melalui 
+Untuk cek hasil export variabel dapat melalui 
 ```sh
 $ export -p
 ```
@@ -278,7 +278,7 @@ $ ping [host tujuan]
 ![ping1](img/ping1.png)
 
 ##### 3. ssh
-ssh adalah suatu network protokol untuk berkomunikasi secara aman antar komputer. ssh menghubungkan dan masuk ke nama host yang ditentukan. command ini dapat meremote server SSH komputer lain untuk menjalankan perintah-perintah dari jarak jauh.
+ssh adalah suatu network protokol untuk berkomunikasi secara aman antar komputer. ssh menghubungkan dan masuk(log) ke host yang ditentukan. Command ini dapat meremote server SSH komputer lain untuk menjalankan perintah-perintah dari jarak jauh.
 
 ssh akan menyediakan koneksi terenkripsi yang aman antara dua host melalui jaringan yang tidak aman. Sambungan ini juga dapat digunakan untuk akses terminal, transfer file, dan untuk tunneling aplikasi lain.
 
