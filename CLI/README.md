@@ -5,7 +5,7 @@ Sub-Materi
 3. [Export Variable](#3-export-variable)
 4. [Menginstall Software](#4-menginstall-software)
 
-## 1. Basic Command
+### 1. Basic Command
 ##### 1. pwd
 *print working directory*. Untuk mengetahui di directory mana kita berada sekarang.
 ![pwd](img/pwd.png)
@@ -85,7 +85,7 @@ Sesudah clear:
 ##### 17. mount
 ##### 18. tree
 
-## 2. Administrative Command
+### 2. Administrative Command
 
 ##### 24. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
@@ -99,8 +99,8 @@ $ sudo apt-get install -y vim
 ```
 instalasi akan berjalan, dan setelah vim terinstall akan terlihat output seperti ini:
 
-## 3. Export Variable
-## 4. Menginstall Software
+### 3. Export Variable
+### 4. Menginstall Software
 
 ##### 1. apt-get update
 ```sh
