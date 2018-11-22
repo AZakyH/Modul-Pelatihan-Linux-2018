@@ -6,6 +6,57 @@ Sub-Materi
 4. [Menginstall Software](#4-menginstall-software)
 
 ## 1. Basic Command
+##### 1. pwd
+*print working directory*. Untuk mengetahui di directory mana kita berada sekarang.
+
+##### 2. ls
+*list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
+Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
+- Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
+
+- Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
+
+##### 3. cd
+*change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
+Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`.
+Contoh lain:
++ `cd` untuk pindah ke directory home user
++ `cd /` untuk pindah ke directory root
++ `cd ..` untuk pindah ke parent directory dari directory sekarang
++ `cd -` untuk pindah ke working directory sebelumnya 
+##### 4. cp
+*copy*
+##### 5. mv
+*Move* Digunakan untuk memindahkan suatu file ke directory lain. Selain itu *mv* dapat juga digunakan untuk me-rename file.
+##### 6. mkdir
+*make directory*
+##### 7. rm
+*remove*
+##### 8. rmdir
+*remove directory*
+##### 9. cat
+*concatenate*
+##### 10. echo
+##### 11. grep
+##### 12. tar
+##### 13. zip
+Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah `zip [namafilezip] [file1] [file2]`.
+Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
+Maka command yang kita jalankan adalah `zip energi makanan cemilan`
+##### 14. unzip
+Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
+Syntax-nya adalah `unzip [namafilezip]`.
+Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
+##### 15. exit
+Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
+##### 16. clear
+Digunakan untuk 'membersihkan' isi layar terminal.
+Sebelum clear:
+
+Sesudah clear:
+##### 17. mount
+##### 18. tree
+
 ## 2. Administrative Command
 
 ##### 24. vim
