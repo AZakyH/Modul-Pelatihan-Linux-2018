@@ -99,22 +99,26 @@ $ sudo apt-get install -y vim
 ```
 ##### Membuat dan menginsert teks 
 Syntax yang biasa digunakan adalah `vim [nama-file]` atau `vim [options] [file ..]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
-![rmdir](img/vim3.png)
+![vim3](img/vim3.png)
 
 Vim sekarang dalam **mode normal**. Untuk menginsertkan teks, maka ketik `i` untuk masuk ke **mode insert** dan diikuti dengan mengetikkan teks yang diinginkan.
 Ketika kita menekan `i` untuk menginsertkan teks, karakter yang kita inputkan akan terketik sesuai dengan posisi kursor saat itu. Agar karakter yang kita inputkan terketik pada sebelah kanan posisi kursor, maka kembalikan vim pada mode normal, dan tekan `a`. Maka karakter yang kita inputkan akan terketik pada sebelah kanan posisi kursor saat itu.
 
 Jika sudah selesai menginputkan teks, tekan `esc` dan vim akan kembali ke mode normal. Dalam mode normal, tekan `h` untuk bergerak ke kiri, `l` untuk ke kanan, `j` untuk bergerak ke atas dan `k` untuk ke bawah.
+!.[vim4].(img/vim4.png)
 
 ##### Menghapus karakter
 Untuk menghapus sebuah karakter, selain bisa dilakukan pada mode insert dapat pula dilakukan ketika vim dalam **mode normal**. Yaitu dengan mengarahkan tanda kursor pada karakter yang ingin dihapus, dan menekan `x`.
 Contohnya misal ketika kursor diletakkan pada huruf pertama yaitu huruf *i* pada kalimat *ini baris 3 ya* dan `x` ditekan sebanyak 4 kali, maka kalimat pada baris tersebut yang tersisa adalah *baris 3 ya*.
+!.[vim5].(img/vim5.png)
 
 ##### Menghapus baris
 Jika yang ingin dihapus adalah satu baris penuh, maka yang perlu dilakukan pada **mode normal** yaitu memposisikan kursor pada baris yang ingin dihapus, dan ketikkan `dd`. Misalnya kita ingin menghapus baris pertama dimana terdapat kalimat *hehe :)* maka setelah memposisikan kursor pada baris tersebut, ketika kita mengetikkan `dd` maka baris yang tersisa adalah *nyoba nulis* sebagai baris pertama dan *baris 3 ya* sebagai baris ke-2.
+!.[vim6].(img/vim6)
 
 ##### Menggabungkan dua baris
 Untuk menggabungkan dua baris menjadi satu baris atau dengan kata lain menghilangkan spasi diantara 2 baris, maka pada **mode normal** cukup dengan memposisikan kursor pada kalimat di baris pertama dan tekan `J`. Maka kalimat pada baris kedua akan menjadi satu baris dengan kalimat pertama.
+!.[vim7].(img/vim7)
 
 ##### Undo dan Redo
 Pada teks editor vim, untuk meng-undo perubahan yang barusan kita lakukan dilakukan dengan mengetik `u`. Maka pengerjaan yang baru saja kita lakukan akan ter-undo.
