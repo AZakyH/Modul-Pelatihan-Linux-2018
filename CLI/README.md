@@ -60,17 +60,26 @@ Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menam
 ![rmdir](img/rmdir.png)
 
 ##### 10. echo
+Digunakan untuk menampilkan string yang kita inputkan.
+Syntax-nya `echo [string yang diinginkan]`
+![echo](img/echo.png)
+
 ##### 11. grep
-##### 12. tar
+Digunakan untuk menampilkan setiap baris pada suatu file yang mengandung kata yang dicari.
+Syntax-nya adalah `grep "[katayangdicari]" [namafile]`
+![grep](img/grep.png)
+
 ##### 13. zip
 Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah `zip [namafilezip] [file1] [file2]`.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
+![zip](img/zip.png)
 
 ##### 14. unzip
 Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
 Syntax-nya adalah `unzip [namafilezip]`.
 Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
+![unzip](img/unzip.png)
 
 ##### 15. exit
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
@@ -83,7 +92,17 @@ Sesudah clear:
 ![clear2](img/sesudahclear.png)
 
 ##### 17. mount
+
+
 ##### 18. tree
+
+
+### 2. Administrative Command
+###### 1. su
+###### 2. sudo
+###### 3. chown
+###### 4. passwd
+###### 5. chmod
 
 ### 2. Administrative Command
 
