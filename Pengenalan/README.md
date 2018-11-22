@@ -69,8 +69,8 @@ Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat
  3. Kalah bersaing dengan sistem operasi lainnya, sehingga terlihat inferior
  
  
-#### Referensi :
-- [https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux](https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux)
-- [https://www.nesabamedia.com/distro-linux/](https://www.nesabamedia.com/distro-linux/)
+##### Referensi :
+- https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux
+- https://www.nesabamedia.com/distro-linux/
 - https://id.wikipedia.org/wiki/Linux
 - https://id.wikipedia.org/wiki/Distribusi_Linux
