@@ -8,6 +8,7 @@ Sub-Materi
 ## 1. Basic Command
 ##### 1. pwd
 *print working directory*. Untuk mengetahui di directory mana kita berada sekarang.
+![pwd](img/pwd.png)
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
