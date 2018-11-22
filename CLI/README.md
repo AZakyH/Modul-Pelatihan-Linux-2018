@@ -267,7 +267,7 @@ $ export -n EDITOR
 
 ##### 1. ifconfig
 Untuk mengkonfigurasi network interface.
-
+![ifconfig1](img/ifconfig1.png)
 
 ##### 2. ping
 Merupakan sebuah utility program/alat untuk menguji apakah host tertentu dapat dijangkau.
@@ -275,7 +275,7 @@ Syntax yang biasa digunakan
 ```sh
 $ ping [host tujuan]
 ```
-
+![ping1](img/ping1.png)
 
 ##### 3. ssh
 ssh adalah suatu network protokol untuk berkomunikasi secara aman antar komputer. ssh menghubungkan dan masuk ke nama host yang ditentukan. command ini dapat meremote server SSH komputer lain untuk menjalankan perintah-perintah dari jarak jauh.
