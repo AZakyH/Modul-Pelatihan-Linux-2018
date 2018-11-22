@@ -200,21 +200,28 @@ Syntax yang biasa digunakan
 ```sh
 $ sudo nano [nama-file]
 ```
+![nano1](img/nano1.png)
+
 Command tersebut akan memunculkan default nano-screen
+
+![nano2](img/nano2.png)
 
 Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
 
-Ketika `Ctrl+x` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `y`, `Y` untuk menyimpan perubahan dari file, dan `n` atau `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
+![nano3](img/nano3.png)
+
+Ketika `Ctrl+x` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
+
 
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
-
+![nano4](img/nano4.png)
 
 ##### 27. touch
 Digunakan untuk membuat sebuah file. Syntax yang digunakan 
 ```sh
 $ touch [nama-file]
 ```
-
+![touch1](img/touch1.png)
 
 ### 4. Export Variable
 
