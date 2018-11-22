@@ -132,7 +132,7 @@ $ sudo apt-get update
 ```sh
 $ sudo apt-get install -y vim
 ```
-##### Membuat dan menginsert teks 
+##### Membuat dan meng-insert teks 
 Syntax yang biasa digunakan adalah `vim [nama-file]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
 ```sh
 $ vim nyoba.txt
@@ -159,7 +159,7 @@ Untuk menggabungkan dua baris menjadi satu baris atau dengan kata lain menghilan
 ![vim7](img/vim7.png)
 
 ##### Undo dan Redo
-Pada teks editor vim, untuk meng-undo perubahan yang barusan kita lakukan dilakukan dengan mengetik `u`. Maka pengerjaan yang baru saja kita lakukan akan ter-undo.
+Pada teks editor vim, untuk meng-undo perubahan yang baru saja kita lakukan dilakukan dengan mengetik `u`. Maka pengerjaan yang baru saja kita lakukan akan ter-undo.
 Sedangkan untuk me-redo atau kebalikan dari undo yang baru saja kita lakukan yaitu dengan menekan `Ctrl+R`.
 
 ##### Menulis pada line baru
@@ -189,6 +189,10 @@ Halaman gedit pun akan muncul dan kita bisa menginputkan teks yang kita inginkan
 ![gedit1](img/gdit1.png)
 
 File gedit memungkinkan kita untuk mengedit banyak file sekaligus. Syntax yang digunakan 
+```sh
+$ gedit [file1 file2 ...]
+```
+misalnya mengedit 2 file yaitu *cobagedit.txt* dan *nyobajuga.txt*
 ```sh
 $ gedit cobagedit.txt nyobajuga.txt
 ```
@@ -276,4 +280,9 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 ##### Referensi
 + https://searchdatacenter.techtarget.com/tutorial/77-Linux-commands-and-utilities-youll-actually-use
 + https://linux.die.net/man/8/apt-get
++ https://www.tutorialspoint.com/unix_commands/export.htm
++ https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
++ https://linux.die.net/man/1/gedit
++ https://www.computerhope.com/unix/vim.htm
++ https://www.simplified.guide/ubuntu/install-vim
 
