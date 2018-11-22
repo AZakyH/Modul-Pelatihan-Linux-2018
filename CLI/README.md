@@ -121,7 +121,7 @@ Digunakan untuk meng-*update* password user.
 Digunakan untuk mengubah izin akses dari suatu dokumen.
 
 
-### 3.  File Editing
+### 3. File Editing
 ##### 24. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
 Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
