@@ -61,7 +61,7 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 5. untuk mengaplikasikan perubahan silahkan lakukan koneksi ulang.
 
 
-### Referensi :
+##### Referensi :
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
 - http://techgenix.com/nat-vs-bridged-network-a-simple-diagram-178/
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
