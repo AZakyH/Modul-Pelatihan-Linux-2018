@@ -5,7 +5,8 @@ Sub-Materi
 2. [Administrative Command](#2-administrative-command)
 3. [File Editing](#3-file-editing)
 4. [Export Variable](#4-export-variable)
-5. [Menginstall Software](#5-menginstall-software)
+5. [Cek IP dan Koneksi](#5-Cek-IP-dan-Koneksi)
+6. [Menginstall Software](#6-menginstall-software)
 
 ### 1. Basic Command
 ##### 1. pwd
@@ -99,7 +100,7 @@ Sesudah clear:
 
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
-![tree](img/tree.png)
+[tree](img/tree.png)
 
 ### 2. Administrative Command
 ###### 1. su
@@ -262,8 +263,31 @@ Digunakan option `-n`
 ```sh
 $ export -n EDITOR
 ```
+### 5. Cek IP dan Koneksi
 
-### 5. Menginstall Software
+##### 1. ifconfig
+Untuk mengkonfigurasi network interface.
+
+
+##### 2. ping
+Merupakan sebuah utility program/alat untuk menguji apakah host tertentu dapat dijangkau.
+Syntax yang biasa digunakan
+```sh
+$ ping [host tujuan]
+```
+
+
+##### 3. ssh
+ssh adalah suatu network protokol untuk berkomunikasi secara aman antar komputer. ssh menghubungkan dan masuk ke nama host yang ditentukan. command ini dapat meremote server SSH komputer lain untuk menjalankan perintah-perintah dari jarak jauh.
+
+ssh akan menyediakan koneksi terenkripsi yang aman antara dua host melalui jaringan yang tidak aman. Sambungan ini juga dapat digunakan untuk akses terminal, transfer file, dan untuk tunneling aplikasi lain.
+
+Syntax yang biasa digunakan
+```sh
+$ ssh [hostname]
+```
+
+### 6. Menginstall Software
 
 ##### 1. apt-get update
 ```sh
@@ -285,4 +309,6 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 + https://linux.die.net/man/1/gedit
 + https://www.computerhope.com/unix/vim.htm
 + https://www.simplified.guide/ubuntu/install-vim
++ https://www.ssh.com/ssh/command/
++ https://linux.die.net/man/8/ifconfig
 
