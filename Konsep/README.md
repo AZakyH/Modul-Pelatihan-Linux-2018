@@ -55,6 +55,6 @@ Adanya Repository di linux itu sangatlah _**Penting**_, karena itu adalah tempat
 ### 2.4. Apakah semua Paket software ada di Repository? 
 Tidak semua paket software langsung ada di repository, itu sebabnya kita harus tau nama file repository dan letaknya dimana, karena jika kita akan menginstall suatu software dan aplikasi, kemudian di Repository ternyata paketnya belum ada, kita bisa mencari repositorynya dan menambahkannya di di Repository kita dengan mengedit file sources.list tadi, yang berada di directory sudo gedit /etc/apt/sources.list.
 
-#### Referensi
+##### Referensi
 - http://2010183ifunsika.blogspot.com/2012/10/analisis-struktur-sistem-linux-dan.html
 - http://www.belkomindo.com/2015/12/apasih-repository-itu.html
