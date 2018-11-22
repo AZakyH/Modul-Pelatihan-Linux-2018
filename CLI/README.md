@@ -122,7 +122,7 @@ Digunakan untuk mengubah izin akses dari suatu dokumen.
 
 
 ### 3.  File Editing
-##### 24. vim
+##### 1. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
 Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
 ##### Install vim teks editor
@@ -174,7 +174,7 @@ Untuk mengeksplorasi lebih lanjut mengenai teks editor vim, terdapat tutorial vi
 $ vimtutor
 ```
 
-##### 25. gedit
+##### 2. gedit
 Gedit atau *Gnome-Text-Editor* adalah teks editor untuk GNOME desktop dan dapat digunakan untuk mengedit teks jenis apapun.
 Syntax yang biasa digunakan untuk menjalankan tek editor ini adalah 
 ```sh
@@ -194,7 +194,7 @@ $ gedit cobagedit.txt nyobajuga.txt
 ```
 ![gedit2](img/gdit2.png)
 
-##### 26. nano
+##### 3. nano
 Nano atau *Nano's ANOther editor* merupakan teks editor yang dikembangkan mirip dengan teks editor *Pico* yang menjadi editor default dari Pine. Nano termasuk teks editor yang *user-friendly* karena adanya *shortcut* pada bagian bawah editor sehingga memudahkan pengguna dalam menggunakan teks editor ini.
 Syntax yang biasa digunakan 
 ```sh
@@ -212,11 +212,10 @@ Untuk melihat list dari shortcut-shortcut yang ada tekan `Ctrl+G`
 
 Ketika `Ctrl+x` ditekan untuk keluar dari editor, pada bagian bawah di baris ketiga dari bawah akan muncul pertanyaan *Save modified buffer?* Tekan `Y` untuk menyimpan perubahan dari file, dan `N` untuk keluar dari teks editor nano tanpa menyimpan perubahan. 
 
-
 Selain itu sebelum benar-benar keluar dari teks editor nano, kita juga dapat merubah nama file yang baru saja kita buat tadi. Cukup dengan mengganti nama file sebelumnya yang tertera pada bagian bawah teks editor dimana terdapat tulisan *File name to write: ...* lalu tekan Enter.
 ![nano4](img/nano4.png)
 
-##### 27. touch
+##### 4. touch
 Digunakan untuk membuat sebuah file. Syntax yang digunakan 
 ```sh
 $ touch [nama-file]
@@ -224,6 +223,41 @@ $ touch [nama-file]
 ![touch1](img/touch1.png)
 
 ### 4. Export Variable
+Command *export* adalah salah satu command yang merupakan bagian dari shell (BuiltIn bash shell). Command ini cukup mudah digunakan karena syntax nya 'langsung' dan hanya memiliki 3 opsi perintah:
+
+- -p : Daftar semua nama yang diekspor dalam shell saat ini
+- -n : Hapus nama dari daftar ekspor
+- -f : Nama diekspor sebagai fungsi
+
+Secara umum, perintah ekspor menandai *environment variabel* untuk diekspor sehingga proses *child* yang baru bercabang dapat mewarisi semua variabel yang ditandai.
+
+Contoh penggunaan export:
+
+##### Meng-export Proxy
+Untuk melakukan export proxy, misalnya menggunakan proxy ITS, maka syntax pada terminal
+```sh
+$ export http_proxy="http://username%40mhs.if.its.ac.id:password@proxy.its.ac.id:8080"
+```
+##### Men-set vim sebagai text editor
+pada terminal ketikkan command
+```sh
+$ export EDITOR=/usr/bin/vim
+```
+Untuk cek hasil export variabel tersebut dapat melalui 
+```sh
+$ export -p
+```
+atau
+```sh
+$ export | grep EDITOR
+```
+
+
+##### Me-remove variable dari export list
+Digunakan option `-n`
+```sh
+$ export -n EDITOR
+```
 
 ### 5. Menginstall Software
 
