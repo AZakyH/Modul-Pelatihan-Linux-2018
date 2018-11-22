@@ -98,11 +98,10 @@ $ sudo apt-get update
 $ sudo apt-get install -y vim
 ```
 ###### Membuat dan menginsert teks 
-Syntax yang biasa digunakan `vim file` atau `vim [options] [file ..]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
-![vim1].(img/vim3.png)
-
+Syntax yang biasa digunakan adalah `vim file` atau `vim [options] [file ..]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
+![rmdir](img/vim3.png)
 vim sekarang dalam mode normal. Untuk menginsertkan teks, maka ketik `i` untuk masuk ke **mode insert** dan diikuti dengan mengetikkan teks yang diinginkan.
-![vim2].(img/vim4.png)
+
 
 
 ### 3. Export Variable
