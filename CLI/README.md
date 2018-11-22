@@ -99,7 +99,7 @@ Sesudah clear:
 
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
-[tree](img/tree.png)
+![tree](img/tree.png)
 
 ### 2. Administrative Command
 ###### 1. su
