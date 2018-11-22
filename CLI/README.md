@@ -12,7 +12,7 @@ Sub-Materi
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
-![ls](img/ls.png)  
+![ls](img/ls.png)
 Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
 ![ls -a](img/ls_a.png)
@@ -21,8 +21,8 @@ Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 
 ##### 3. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
-Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`  
-![cd](img/cd.png)  
+Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
+![cd](img/cd.png)
 Contoh lain:
 + `cd` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
@@ -51,7 +51,7 @@ Syntax-nya adalah `cp [namafile] [namacopyannya]`
 
 ##### 8. rm
 *remove*. Digunakan untuk menghapus suatu file.
-![rm](img/rm.png)  
+![rm](img/rm.png)
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
 ![rm -r](img/rm_r.png)
 
@@ -76,10 +76,10 @@ Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip ener
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
 
 ##### 16. clear
-Digunakan untuk 'membersihkan' isi layar terminal.  
-Sebelum clear:  
-![clear1](img/sebelumclear.png)  
-Sesudah clear:  
+Digunakan untuk 'membersihkan' isi layar terminal.
+Sebelum clear:
+![clear1](img/sebelumclear.png)
+Sesudah clear:
 ![clear2](img/sesudahclear.png)
 
 ##### 17. mount
@@ -90,14 +90,20 @@ Sesudah clear:
 ##### 24. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
 Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
-###### 1. Install vim teks editor
+###### Install vim teks editor
 ```sh
 $ sudo apt-get update
 ```
 ```sh
 $ sudo apt-get install -y vim
 ```
-instalasi akan berjalan, dan setelah vim terinstall akan terlihat output seperti ini:
+###### Membuat dan menginsert teks 
+Syntax yang biasa digunakan `vim file` atau `vim [options] [file ..]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
+![vim1].(img/vim3.png)
+
+vim sekarang dalam mode normal. Untuk menginsertkan teks, maka ketik `i` untuk masuk ke **mode insert** dan diikuti dengan mengetikkan teks yang diinginkan.
+![vim2].(img/vim4.png)
+
 
 ### 3. Export Variable
 ### 4. Menginstall Software
