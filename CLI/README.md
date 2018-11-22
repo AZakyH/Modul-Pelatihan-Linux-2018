@@ -4,8 +4,8 @@ Sub-Materi
 1. [Basic Command](#1-basic-command)
 2. [Administrative Command](#2-administrative-command)
 3. [File Editing](#3-file-editing)
-4. [Export Variable](#3-export-variable)
-5. [Menginstall Software](#4-menginstall-software)
+4. [Export Variable](#4-export-variable)
+5. [Menginstall Software](#5-menginstall-software)
 
 ### 1. Basic Command
 ##### 1. pwd
@@ -198,9 +198,9 @@ $ gedit cobagedit.txt nyobajuga.txt
 
 ##### 27. touch
 
-### 3. Export Variable
+### 4. Export Variable
 
-### 4. Menginstall Software
+### 5. Menginstall Software
 
 ##### 1. apt-get update
 ```sh
