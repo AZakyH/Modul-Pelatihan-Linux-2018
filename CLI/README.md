@@ -148,7 +148,13 @@ Misal kita akan membuat file txt dengan nama *cobagedit* maka ketikkan pada term
 $ gedit cobagedit.txt
 ```
 Halaman gedit pun akan muncul dan kita bisa menginputkan teks yang kita inginkan.
+![gedit1](img/gedit1.png)
 
+File gedit memungkinkan kita untuk mengedit banyak file sekaligus. Syntax yang digunakan 
+```sh
+$ gedit cobagedit.txt nyobajuga.txt
+```
+![gedit2](img/gedit2.png)
 
 ##### 26. nano
 
