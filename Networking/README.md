@@ -11,7 +11,7 @@ sub-materi
 
   
 
-##### 1. VirtualBox Networking Modes
+### 1. VirtualBox Networking Modes
 
 - Not attached
 
@@ -29,7 +29,7 @@ sub-materi
 
   
 
-##### 2. Bridged Networking vs NAT
+### 2. Bridged Networking vs NAT
 
 ![NAT and Bridged network simple diagram](img/0.png)
 
@@ -41,7 +41,7 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 
   
 
-##### 3. Setting IP Address Statis
+### 3. Setting IP Address Statis
 1. klik ikon koneksi, lalu pilih 'edit'.
 
 ![](img/1.png)
@@ -61,7 +61,7 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 5. untuk mengaplikasikan perubahan silahkan lakukan koneksi ulang.
 
 
-##### Referensi :
+### Referensi :
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
 - http://techgenix.com/nat-vs-bridged-network-a-simple-diagram-178/
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
