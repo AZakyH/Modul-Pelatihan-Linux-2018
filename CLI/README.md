@@ -12,14 +12,17 @@ Sub-Materi
 
 ##### 2. ls
 *list*. Untuk menampilkan file-file apa saja yang ada di suatu directory.
+![ls](img/ls.png)
 Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Saat menggunakan parameter `-a` maka semua file akan ditampikan, termasuk yang *hidden* (diawali dengan `.`).
-
+![ls -a](img/ls_a.png)
 - Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
+![ls -a](img/ls_l.png)
 
 ##### 3. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`.
+![ls -a](img/cd.png)
 Contoh lain:
 + `cd` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
