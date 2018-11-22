@@ -98,7 +98,10 @@ $ sudo apt-get update
 $ sudo apt-get install -y vim
 ```
 ##### Membuat dan menginsert teks 
-Syntax yang biasa digunakan adalah `vim [nama-file]` atau `vim [options] [file ..]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
+Syntax yang biasa digunakan adalah `vim [nama-file]`. Setelah command tersebut dijalankan akan terlihat lambang `~` pada tiap baris yang kosong. 
+```sh
+$ vim nyoba.txt
+```
 ![vim3](img/vim3.png)
 
 Vim sekarang dalam *mode normal*. Untuk menginsertkan teks, maka ketik `i` untuk masuk ke *mode insert* dan diikuti dengan mengetikkan teks yang diinginkan.
