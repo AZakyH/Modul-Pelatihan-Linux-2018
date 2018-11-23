@@ -5,7 +5,7 @@ Sub-Materi
 2. [Administrative Command](#2-administrative-command)
 3. [File Editing](#3-file-editing)
 4. [Export Variable](#4-export-variable)
-5. [Cek IP dan Koneksi](#5-Cek-IP-dan-Koneksi)
+5. [Cek IP dan Koneksi](#5-cek-ip-dan-koneksi)
 6. [Menginstall Software](#6-menginstall-software)
 
 ### 1. Basic Command
@@ -29,7 +29,7 @@ Untuk keluar dari tampilan manual tersebut kita tinggal menekan tombol `q`.
 ![man](img/manls.png)
 
 ##### 4. cd
-*change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
+*change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah ```cd [namadirectory]```.
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
 ![cd](img/cd.png)  
 Contoh lain:
@@ -40,19 +40,19 @@ Contoh lain:
  
 ##### 5. mkdir
 *make directory*. Digunakan untuk membuat sebuah directory (folder).
-Syntax-nya adalah `mkdir [namadirectory]`
+Syntax-nya adalah ```mkdir [namadirectory]```
 ![mkdir](img/mkdir.png)
 
 ##### 6. cp
 *copy*. Digunakan untuk menyalin (meng-copy) file.
-Syntax-nya adalah `cp [namafile] [namacopyannya]`
+Syntax-nya adalah ```cp [namafile] [namacopyannya]```
 ![cp](img/cp.png)
 
 ##### 7. mv
 *Move* Digunakan untuk memindahkan suatu file ke directory lain.
-+ Untuk memindahkan file, syntax-nya adalah `mv [namafile] [pathbarunya]`
++ Untuk memindahkan file, syntax-nya adalah ```mv [namafile] [pathbarunya]```
 ![mv](img/mv.png)
-+ Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah `mv [namafile] [namabaru]`
++ Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah ```mv [namafile] [namabaru]```
 ![mv](img/mv2.png)
 
 ##### 8. cat
@@ -60,18 +60,17 @@ Syntax-nya adalah `cp [namafile] [namacopyannya]`
 ![cat](img/cat.png)
 
 ##### 9. rm
-*remove*. Digunakan untuk menghapus suatu file.
+*remove*. Digunakan untuk menghapus suatu file. Syntax-nya adalah ```rm [namafile]```
 ![rm](img/rm.png)  
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
 ![rm -r](img/rm_r.png)
 
 ##### 10. rmdir
-*remove directory*. Digunakan untuk menghapus directory yang kosong.
+*remove directory*. Digunakan untuk menghapus directory yang kosong. Syntax-nya adalah ```rmdir [namafolder]```
 ![rmdir](img/rmdir.png)
 
 ##### 11. echo
-Digunakan untuk menampilkan string yang kita inputkan.
-Syntax-nya `echo [string yang diinginkan]`
+Digunakan untuk menampilkan string yang kita inputkan. Syntax-nya adalah ```echo [string yang diinginkan]```
 ![echo](img/echo.png)
 
 ##### 12. grep
@@ -80,14 +79,14 @@ Syntax-nya adalah `grep "[katayangdicari]" [namafile]`
 ![grep](img/grep.png)
 
 ##### 13. zip
-Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah `zip [namafilezip] [file1] [file2]`.
+Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah ```zip [namafilezip] [file1] [file2]```.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
 ![zip](img/zip.png)
 
 ##### 14. unzip
 Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
-Syntax-nya adalah `unzip [namafilezip]`.
+Syntax-nya adalah ```unzip [namafilezip]```.
 Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
 ![unzip](img/unzip.png)
 
@@ -108,23 +107,29 @@ Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu den
 ![tree](img/tree.png)
 
 ### 2. Administrative Command
-###### 1. su
+##### 1. su
 Digunakan untuk mengganti user ID atau menjadi superuser.
 Syntax-nya adalah `su`
 
-###### 2. sudo
+##### 2. sudo
 *superuser do*. Digunakan untuk menjalankan command sebagai superuser.
 Syntax-nya adalah `sudo [command]`
 
 ###### 3. chown
-*change owner*. Digunakan untuk mengubah kepemilikan dari suatu file.
-Syntax-nya adalah `chown [namauser] [namafile]`
+*change owner*.
++ Digunakan untuk mengubah kepemilikan dari suatu file. Syntax-nya adalah 
+```chown [namauser] [namafile]```
+![chown](img/chown.png)  
++ Selain user pemilik, command `chown` juga bisa digunakan untuk mengganti *group* pemilik. Syntax-nya adalah
+```chown [namauser]:[namagroup] [namafile]```
+![chown-group](img/chown2.png)  
+**Note:** mohon diingat bahwa nama user dan group yang dipilih harus sudah ada di komputer tersebut.
 
-###### 4. passwd
+##### 4. passwd
 Digunakan untuk meng-*update* password user.
 ![passwd](img/passwd.png)  
 
-###### 5. chmod
+##### 5. chmod
 *change mode*. Digunakan untuk mengubah izin akses dari suatu dokumen.
 Contoh syntax `chmod 777 [namafile]`
 *777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
@@ -143,7 +148,7 @@ Permission Table
 |1|execute only|--x|001|
 |7|none|---|000|
 
-### 3.  File Editing
+### 3. File Editing
 ##### 1. vim
 vim merupakan singkatan dari "Vi IMprovised" dan merupakan salah satu teks editor pada OS Linux yang dapat digunakan untuk mengedit jenis teks apapun, termasuk suatu program komputer. Vim diupgrade dari teks editor vi, yang memiliki beberapa peningkatan dari vi, beberapa diantaranya adalah syntax highlighting, on-line help, multi-windows dan buffers, dll.
 Untuk lebih jelas perbedaan antara vim dan vi : https://github.com/vim/vim/blob/master/runtime/doc/vi_diff.txt
