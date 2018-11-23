@@ -22,7 +22,13 @@ Parameter yang sering dipakai pada perintah ls adalah `-a` dan `-l`.
 - Sedangkan parameter `-l` menampilkan file yang tidak *hidden* dalam format *long-list*.
 ![ls -l](img/ls_l.png)
 
-##### 3. cd
+##### 3. man
+*manuals*. Digunakan untuk melihat fungsi dan parameter dari suatu comman
+Contoh `man ls` akan menampilkan manual penggunaan command `ls`.
+Untuk keluar dari tampilan manual tersebut kita tinggal menekan tombol `q`.
+![man](img/manls.png)
+
+##### 4. cd
 *change directory*. Digunakan untuk pindah ke directory lain. Syntax-nya adalah `cd [namadirectory]`. 
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
 ![cd](img/cd.png)  
@@ -32,74 +38,73 @@ Contoh lain:
 + `cd ..` untuk pindah ke parent directory dari directory sekarang
 + `cd -` untuk pindah ke working directory sebelumnya 
  
-##### 4. mkdir
+##### 5. mkdir
 *make directory*. Digunakan untuk membuat sebuah directory (folder).
 Syntax-nya adalah `mkdir [namadirectory]`
 ![mkdir](img/mkdir.png)
 
-##### 5. cp
+##### 6. cp
 *copy*. Digunakan untuk menyalin (meng-copy) file.
 Syntax-nya adalah `cp [namafile] [namacopyannya]`
 ![cp](img/cp.png)
 
-##### 6. mv
+##### 7. mv
 *Move* Digunakan untuk memindahkan suatu file ke directory lain.
 + Untuk memindahkan file, syntax-nya adalah `mv [namafile] [pathbarunya]`
 ![mv](img/mv.png)
 + Selain itu `mv` dapat juga digunakan untuk me-rename file, syntax-nya adalah `mv [namafile] [namabaru]`
 ![mv](img/mv2.png)
 
-##### 7. cat
+##### 8. cat
 *concatenate*. Digunakan untuk menampilkan isi dari suatu file.
 ![cat](img/cat.png)
 
-##### 8. rm
+##### 9. rm
 *remove*. Digunakan untuk menghapus suatu file.
 ![rm](img/rm.png)  
 Selain itu rm juga dapat digunakan untuk menghapus directory, yaitu dengan menambahkan parameter `-r`
 ![rm -r](img/rm_r.png)
 
-##### 9. rmdir
+##### 10. rmdir
 *remove directory*. Digunakan untuk menghapus directory yang kosong.
 ![rmdir](img/rmdir.png)
 
-##### 10. echo
+##### 11. echo
 Digunakan untuk menampilkan string yang kita inputkan.
 Syntax-nya `echo [string yang diinginkan]`
 ![echo](img/echo.png)
 
-##### 11. grep
+##### 12. grep
 Digunakan untuk menampilkan setiap baris pada suatu file yang mengandung kata yang dicari.
 Syntax-nya adalah `grep "[katayangdicari]" [namafile]`
 ![grep](img/grep.png)
 
-##### 12. zip
+##### 13. zip
 Command ini digunakan untuk melakukan compress data menjadi bentuk zip. Syntax-nya adalah `zip [namafilezip] [file1] [file2]`.
 Misalnya kita ingin mengompress file **makanan** dan **cemilan** menjadi  **energi.zip** .
 Maka command yang kita jalankan adalah `zip energi makanan cemilan`
 ![zip](img/zip.png)
 
-##### 13. unzip
+##### 14. unzip
 Kebalikan dari command zip, unzip digunakan untuk mengekstrak isi dari file .zip
 Syntax-nya adalah `unzip [namafilezip]`.
 Jadi untuk mengekstrak file foobar.zip kita perlu menjalankan comman `unzip energi.zip`.
 ![unzip](img/unzip.png)
 
-##### 14. exit
+##### 15. exit
 Digunakan untuk menutup terminal atau mengakhiri suatu script (misalnya saat melakukan ssh ke komputer lain)
 
-##### 15. clear
+##### 16. clear
 Digunakan untuk 'membersihkan' isi layar terminal.
 Sebelum clear:  
 ![clear1](img/sebelumclear.png)  
 Sesudah clear:  
 ![clear2](img/sesudahclear.png)
 
-##### 16. mount
-
-
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
+Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu dengan command
+`apt-get install tree`  
 [tree](img/tree.png)
 
 ### 2. Administrative Command
@@ -108,19 +113,35 @@ Digunakan untuk mengganti user ID atau menjadi superuser.
 Syntax-nya adalah `su`
 
 ###### 2. sudo
-Digunakan untuk menjalankan command sebagai superuser.
+*superuser do*. Digunakan untuk menjalankan command sebagai superuser.
 Syntax-nya adalah `sudo [command]`
 
 ###### 3. chown
-Digunakan untuk mengubah kepemilikan dari suatu file.
+*change owner*. Digunakan untuk mengubah kepemilikan dari suatu file.
 Syntax-nya adalah `chown [namauser] [namafile]`
 
 ###### 4. passwd
 Digunakan untuk meng-*update* password user.
+[passwd](img/passwd.png)  
 
 ###### 5. chmod
 Digunakan untuk mengubah izin akses dari suatu dokumen.
+Contoh syntax `chmod 777 [namafile]`
+*777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
+[chmod](img/chmod.png)  
 
+Permission Table
+
+|#|Permission|rwx|Binary|
+|---|---|---|---|
+|7|read, write and execute|rwx|111|
+|6|read and write|rw-|110|
+|5|read and execute|r-x|101|
+|4|read only|r--|100|
+|3|write and execute|-wx|011|
+|2|write only|-w-|-1-|
+|1|execute only|--x|001|
+|7|none|---|000|
 
 ### 3.  File Editing
 ##### 1. vim
@@ -311,4 +332,5 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 + https://www.simplified.guide/ubuntu/install-vim
 + https://www.ssh.com/ssh/command/
 + https://linux.die.net/man/8/ifconfig
++ https://en.wikipedia.org/wiki/Chmod
 
