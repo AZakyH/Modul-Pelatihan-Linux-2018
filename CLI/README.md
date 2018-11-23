@@ -105,7 +105,7 @@ Sesudah clear:
 Digunakan untuk menampilkan list directory.
 Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu dengan command
 `apt-get install tree`  
-[tree](img/tree.png)
+![tree](img/tree.png)
 
 ### 2. Administrative Command
 ###### 1. su
@@ -122,13 +122,13 @@ Syntax-nya adalah `chown [namauser] [namafile]`
 
 ###### 4. passwd
 Digunakan untuk meng-*update* password user.
-[passwd](img/passwd.png)  
+![passwd](img/passwd.png)  
 
 ###### 5. chmod
 *change mode*. Digunakan untuk mengubah izin akses dari suatu dokumen.
 Contoh syntax `chmod 777 [namafile]`
 *777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
-[chmod](img/chmod.png)  
+![chmod](img/chmod.png)  
 
 Permission Table
 
