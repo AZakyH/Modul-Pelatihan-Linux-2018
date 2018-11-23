@@ -125,7 +125,7 @@ Digunakan untuk meng-*update* password user.
 [passwd](img/passwd.png)  
 
 ###### 5. chmod
-Digunakan untuk mengubah izin akses dari suatu dokumen.
+*change mode*. Digunakan untuk mengubah izin akses dari suatu dokumen.
 Contoh syntax `chmod 777 [namafile]`
 *777* adalah representasi dari permission yang diberikan. Angka pertama melambangkan permission untuk user, angka kedua untuk group, dan angka ke tiga untuk *Others*
 [chmod](img/chmod.png)  
