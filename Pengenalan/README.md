@@ -47,30 +47,22 @@ Jika sebelumnya anda mengetahui bahwa Distro Linux yang bernama Ubuntu dibuat de
 Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat mirip dengan Windows, bahkan termasuk pada aplikasi – aplikasinya. Sejak awal tujuan pembuatan sistem operasi ini memang agar para pengguna yang terbiasa dengan Windows dapat menikmati fitur dari Linux tanpa harus mengalami kesulitan.
 
 ### 3. Kelebihan dan kekurangan Linux
-**Kelebihan Linux**
-
- 1. Gratis dibandingkan dengan sistem operasi lain
- 2. Merupakan sistem operasi yang memiliki code 32 bit
- 3. Memiliki tingkat keamanan yang baik
- 4. Tampilan grafik yang baik
- 5. Mudah untuk dilakukan terhadap source code
- 6. Mendukung akses ke 33 macam sistem file yang berbeda
- 7. Penggunaan Linux lebih terspesifikasi
- 8. Software bawaan sudah terinstall dan dapat digunakan dengan mudah
- 9. Cocok bagi yang hobi melakukan utak atik komputer
- 10. Cocok untuk dijadikan sebagai komputer server
- 11. Spesifikasi hardware yang tidak terlalu besar
- 12. Penggunaan software linux akan mencegah user dari pembajakan hak cipta
-
-**Kekurangan Linux**  
-
- 1. Saat terjadi masalah pada OS Linux, sulit mengatasinya
- 2. Dukungan software populer yang kurang
- 3. Kalah bersaing dengan sistem operasi lainnya, sehingga terlihat inferior
  
+| ASPEK | LINUX | MAC | WINDOWS |  
+|---|---|---|---|
+| Kemanan | Memiliki tingkat keamanan paling kuat | Sulit terkena virus | Rentan terkena virus |  
+| Ekonomis / Harga | Gratis | Berbayar | Berbayar |  
+| Tampilan | Tampilan pada Linux sangat mudah dimengerti oleh penggunanya, tetapi tidak unggul dalam grafis | Segi tampilan Macintosh paling bagus dari Windows dan Linux, desain dan stylenya tampak sangat premium dan indah dimata konsumen | Windows unggul dalam segi grafis, memiliki tampilan yang bagus dan mudah dimengerti oleh peggunanya |  
+| Performance | Performa linux sangat tinggi karena detail yang disediakan dari UI sedikit sehingga digunakan untuk embedded system karena performanya bagus dan sedikit memakan resources | High performance, dengan prosesor Intel terbaru dan inovasi terbaik lainnya, Mac dapat melakukan semua hal yang hanya dapat dilakukan Mac – dengan kecepatan yang menakjubkan | Performa lumayan baik tetapi dengan rentannya terhadap virus membuat performanya tidak maksimal sehingga cenderung lambat karena terlalu banyak detail pada UI yang menyebabkan meningkatnya ukuran Windows secara tidak langsung yang menghambat proses komputer |  
+| User | Banyak user yang belum terbiasa menggunakan linux dan lumayan sulit untuk dipelajari | User-Friendly, dengan tampilan GUI yang sangat menarik, menmbuat Mac OS menjadi  salah satu OS yang banyak diminati khususnya oleh para graphic desainer | Paling disukai karena lebih mudah dipakai dan hampir digunakan oleh mayoritas pengguna komputer di dunia |  
+User Interface | Memiliki banyak user interface | Tidak memiliki banyak user interface, tetapi sudah lebih mudah dipakai dan tampilannya menarik | Tidak memiliki banyak user interface |  
+| Kelengkapan Program | Sudah terdapat banyak program yang siap untuk dipakai | Sudah terdapat program yang siap dipakai, tapi tidak terlalu banyak | Pertama kali memakai harus mengisi program aplikasi yang lain |  
+Perangkat Lunak yang Bisa Dipakai | Sangat minim software karena sedikit developer yang membuat software di Linux | Macintosh masih kalah dibanding Windows tetapi lebih unggul dari Linux, karena software dan hardware-nya harus memiliki licence dari Apple, sedangkan Windows didukung dari berbagai vendor software dan hardware | Memiliki banyak software yang bisa dipakai karena para developer lebih memilih mengembangkan softwarenya di Windows yang pembuatannya mudah dan banyak yang memakai |  
+| Pilihan sitem operasi | Linux banyak jenis yang bisa kita pilih baik lokal maupun luar | Macintosh tidak terlalu banyak yang yang disediakan | Windows tidak banyak varian/jenis yang di tawarkan |  
+| Segi hardware | Ada beberapa hardware yang tidak bekerja atau belum maksimal karena ada vendor yg tidak tidak menyediakan driver versi Linux | Mac tidak bisa dirakit sendiri karena Apple sudah tidak memberi license buat perusahaan lain untuk membuat hardware yang bisa menggunakan Mac OS | Di Windows, biasanya Anda tidak pernah mendengar masalah hardwre, karena hampir semua hardware yang ada sudah menyertakan drivernya |  
  
 ##### Referensi :
-- https://dosenit.com/software/sistem-operasi/kelebihan-dan-kekurangan-linux
+- http://ayukhusnulkhotimah.web.ugm.ac.id/2018/03/04/perbandingan-linux-mac-os-window/
 - https://www.nesabamedia.com/distro-linux/
 - https://id.wikipedia.org/wiki/Linux
 - https://id.wikipedia.org/wiki/Distribusi_Linux
