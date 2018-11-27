@@ -3,13 +3,11 @@
 
 sub-materi
 
-1.  [VirtualBox Networking Modes](#1-VirtualBox-Networking-Modes)
-
-2.  [Bridged Networking vs NAT](#2-Bridged-Networking-vs-NAT)
-
-3.  [Setting IP Address Statis](#3-Setting-IP-Address-Statis)
-
-  
+- [1. VirtualBox Networking Modes](#1-VirtualBox-Networking-Modes)
+- [2. Bridged Networking vs NAT](#2-Bridged-Networking-vs-NAT)
+- [3. Setting IP Address Statis](#3-Setting-IP-Address-Statis)
+  - [a. GUI](#a-GUI)
+  - [b. CLI](#b-CLI)
 
 ### 1. VirtualBox Networking Modes
 
@@ -42,6 +40,7 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
   
 
 ### 3. Setting IP Address Statis
+##### A. GUI
 1. klik ikon koneksi, lalu pilih 'edit'.
 
 ![](img/1.png)
@@ -60,6 +59,24 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 
 5. untuk mengaplikasikan perubahan silahkan lakukan koneksi ulang.
 
+##### B. CLI
+1.  ubah file **/etc/networking/interfaces** dengan cara memasukkan command di bawah ini ke terminal :
+```
+$ sudo nano /etc/networking/interfaces
+```
+2. ubah isi file menjadi
+```
+auto <interface>
+iface <interface> inet static
+address <ip static>
+netmask 255.255.255.0
+gateway 10.151.36.1
+dns-search if.its.ac.id
+```
+3. setelah merubah isi file interfaces restart service networking kalian dengan menjalankan command berikut
+```
+$ sudo service networking restart
+```
 
 ##### Referensi :
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
