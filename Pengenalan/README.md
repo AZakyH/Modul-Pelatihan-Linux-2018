@@ -46,7 +46,7 @@ Jika sebelumnya anda mengetahui bahwa Distro Linux yang bernama Ubuntu dibuat de
 ![Zorin](img/zorin-150x150.jpg  "Zorin")  
 Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat mirip dengan Windows, bahkan termasuk pada aplikasi – aplikasinya. Sejak awal tujuan pembuatan sistem operasi ini memang agar para pengguna yang terbiasa dengan Windows dapat menikmati fitur dari Linux tanpa harus mengalami kesulitan.
 
-### 3. Kelebihan dan kekurangan Linux
+### 3. Perbedaan Linux, MAC, dan Windows
  
 | ASPEK | LINUX | MAC | WINDOWS |  
 |---|---|---|---|
