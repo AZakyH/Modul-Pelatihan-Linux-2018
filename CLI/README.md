@@ -132,7 +132,7 @@ $ dpkg -i google-chrome-stable_current_amd64.deb
 ### 2. Administrative Command
 ##### 1. su
 Digunakan untuk mengganti user ID atau menjadi superuser.
-Syntax-nya adalah `su`
+Syntax-nya adalah `sudo su`
 
 ##### 2. sudo
 *superuser do*. Digunakan untuk menjalankan command sebagai superuser, superuser biasanya digunakan untuk meng-edit file konfigurasi, mengatur paket, menginstall program.
