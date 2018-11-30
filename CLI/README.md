@@ -119,6 +119,15 @@ Nama command-nya `umount` yaa bukan _unmount_.
 ##### 20. dpkg
 Adalah Debian Package Manager. Salah satu kegunaannya adalah untuk meng-install suatu aplikasi yang di-download dari browser.
 Syntax-nya adalah `dpkg -i [path ke file installer aplikasi]`
+Contohnya adalah saat kalian ingin meng-install _google chrome_ maka kalian dapat menggunakan perintah-perintah di bawah ini:
+pertama download dulu installer google chrome yang berekstensi __.deb__
+```sh
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+lalu untuk meng-installnya gunakan command
+```sh
+$ dpkg -i google-chrome-stable_current_amd64.deb
+```
 
 ### 2. Administrative Command
 ##### 1. su
