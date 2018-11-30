@@ -126,7 +126,7 @@ Digunakan untuk mengganti user ID atau menjadi superuser.
 Syntax-nya adalah `su`
 
 ##### 2. sudo
-*superuser do*. Digunakan untuk menjalankan command sebagai superuser.
+*superuser do*. Digunakan untuk menjalankan command sebagai superuser, superuser biasanya digunakan untuk meng-edit file konfigurasi, mengatur paket, menginstall program.
 Syntax-nya adalah `sudo [command]`
 
 ###### 3. chown
