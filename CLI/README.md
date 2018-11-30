@@ -109,12 +109,12 @@ Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu den
 ##### 18. mount
 Digunakan untuk melakukan mount. Syntax-nya adalah `sudo mount [file/device yang mau di-mount] [directory tempat dia akan di-mount]`
 Contoh: ada suatu file _iso_ yang berisi beberapa file. Untuk dapat mengakses file-file di dalamnya melalui terminal, maka kita harus _mount_ file tersebut ke suatu directory.
-![mount](img/mount.jpg)  
+![mount](img/mount.JPG)  
 
 ##### 19. umount
 Digunakan untuk melakukan _unmount_. Syntax-nya adalah `umount [directory tempat suatu file/device di-mount]`.
 Nama command-nya `umount` yaa bukan _unmount_.
-![unmount](img/umount.jpg)  
+![unmount](img/umount.JPG)  
 
 ##### 20. dpkg
 Adalah Debian Package Manager. Salah satu kegunaannya adalah untuk meng-install suatu aplikasi yang di-download dari browser.
