@@ -1,6 +1,6 @@
 # Modul-Pelatihan-Linux-2018
 ## Persiapan
-Peserta sudah harus menginstall VirtualBox yang dapat di-download melalui <insert link>.
+Peserta sudah harus menginstall VirtualBox yang dapat di-download di [sini](intip.in/drivePL2018).
  
 ## Materi
 1. [Pengenalan Linux](Pengenalan/README.md)
