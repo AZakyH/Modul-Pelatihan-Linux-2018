@@ -2,7 +2,7 @@
 Sub-materi
 1. [Pengertian Linux](#1-pengertian-linux)
 2. [Distro Linux](#2-distro-linux)
-3. [Kelebihan dan Kekurangan Linux](#3-kelebihan-dan-kekurangan-linux)
+3. [Perbedaan Linux, MAC, dan Windows](#3-perbedaan-linux-mac-dan-windows)
 
 ### 1. Pengertian Linux
 **Linux** adalah nama yang diberikan kepada sistem operasi bertipe Unix. Linux merupakan salah satu contoh hasil pengembangan perangkat lunak bebas dan sumber terbuka utama. Seperti perangkat lunak bebas dan sumber terbuka lainnya pada umumnya, kode sumber Linux dapat dimodifikasi, digunakan dan didistribusikan kembali secara bebas oleh siapa saja.
