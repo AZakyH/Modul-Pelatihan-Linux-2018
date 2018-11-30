@@ -229,7 +229,7 @@ $ gedit cobagedit.txt nyobajuga.txt
 Nano atau *Nano's ANOther editor* merupakan teks editor yang dikembangkan mirip dengan teks editor *Pico* yang menjadi editor default dari Pine. Nano termasuk teks editor yang *user-friendly* karena adanya *shortcut* pada bagian bawah editor sehingga memudahkan pengguna dalam menggunakan teks editor ini.
 Syntax yang biasa digunakan 
 ```sh
-$ sudo nano [nama-file]
+$ nano [nama-file]
 ```
 ![nano1](img/nanoo.png)
 
