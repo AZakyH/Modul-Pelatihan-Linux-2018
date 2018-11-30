@@ -231,7 +231,7 @@ Syntax yang biasa digunakan
 ```sh
 $ sudo nano [nama-file]
 ```
-![nano1](img/nano1.png)
+![nano1](img/nanoo.png)
 
 Command tersebut akan memunculkan default nano-screen
 
