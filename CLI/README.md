@@ -361,4 +361,4 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 + https://www.ssh.com/ssh/command/
 + https://linux.die.net/man/8/ifconfig
 + https://en.wikipedia.org/wiki/Chmod
-
++ https://www.tecmint.com/dpkg-command-examples/
