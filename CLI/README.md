@@ -103,7 +103,7 @@ Sesudah clear:
 ##### 17. tree
 Digunakan untuk menampilkan list directory.
 Untuk menggunakan command ini, user harus meng-*install*-nya terlebih dahulu dengan command
-`apt-get install tree`  
+`sudo apt-get install tree`  
 ![tree](img/tree.png)
 
 ##### 18. mount
