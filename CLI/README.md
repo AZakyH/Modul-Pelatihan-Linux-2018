@@ -33,7 +33,7 @@ Untuk keluar dari tampilan manual tersebut kita tinggal menekan tombol `q`.
 Misalnya kita sedang berada di directory `/home/Penunggu` dan ingin berpindah ke directory `Desktop/`. Maka command yang kita gunakan adalah `cd Desktop/`
 ![cd](img/cd.png)  
 Contoh lain:
-+ `cd` untuk pindah ke directory home user
++ `cd` atau `cd ~` untuk pindah ke directory home user
 + `cd /` untuk pindah ke directory root
 + `cd ..` untuk pindah ke parent directory dari directory sekarang
 + `cd -` untuk pindah ke working directory sebelumnya 
