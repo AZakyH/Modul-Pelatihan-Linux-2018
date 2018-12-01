@@ -219,8 +219,9 @@ Sedangkan untuk me-redo atau kebalikan dari undo yang baru saja kita lakukan yai
 Pertama posisikan kursor pada sebuah baris. Untuk membuat line baru dibawah baris tersebut, tekan `o` dan otomatis sebuah baris baru akan terbentuk di bawah kalimat tersebut dengan vim sudah berada pada mode insert. Jika baris yang ingin ditambahkan berada diatas baris tempat kursor berada saat ini, maka dilakukan dengan menekan `O`. 
 
 ##### Keluar dari teks editor vim
-1. Keluar tanpa menyimpan perubahan apa-apa dengan mengetikkan `:q!`
-2. Keluar dan menyimpan perubahan dilakukan pada mode normal dengan mengetikkan `ZZ`
+1. Keluar ketika dalam mode insert tanpa menyimpan perubahan apa-apa dengan mengetikkan `:q!`
+2. Keluar ketika dalam mode insert dengan menyimpan perubahan yang dilakukan `:wq`
+3. Keluar dan menyimpan perubahan dilakukan pada mode normal dengan mengetikkan `ZZ`
 
 Untuk mengeksplorasi lebih lanjut mengenai teks editor vim, terdapat tutorial vim yang bisa diakses melalui terminal
 ```sh
