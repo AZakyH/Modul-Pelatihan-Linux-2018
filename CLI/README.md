@@ -172,7 +172,7 @@ Permission Table
 |3|write and execute|-wx|011|
 |2|write only|-w-|-1-|
 |1|execute only|--x|001|
-|7|none|---|000|
+|0|none|---|000|
 
 ### 3. File Editing
 ##### 1. vim
