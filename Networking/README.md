@@ -60,9 +60,9 @@ Mesin virtual ketiga (192.168.1.3) dikonfigurasi dalam mode “**bridged**” ya
 5. untuk mengaplikasikan perubahan silahkan lakukan koneksi ulang.
 
 ##### B. CLI
-1.  ubah file **/etc/networking/interfaces** dengan cara memasukkan command di bawah ini ke terminal :
+1.  ubah file **/etc/network/interfaces** dengan cara memasukkan command di bawah ini ke terminal :
 ```
-$ sudo nano /etc/networking/interfaces
+$ sudo nano /etc/network/interfaces
 ```
 2. ubah isi file menjadi
 ```
