@@ -124,10 +124,13 @@ pertama download dulu installer google chrome yang berekstensi __.deb__
 ```sh
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
+![wget](img/wget.JPG)  
+
 lalu untuk meng-installnya gunakan command
 ```sh
 $ dpkg -i google-chrome-stable_current_amd64.deb
 ```
+![dpkg](img/dpkg.JPG)  
 
 ### 2. Administrative Command
 ##### 1. su
@@ -362,3 +365,5 @@ Semua paket yang dibuthkan oleh paket yang akan diinstall juga akan terunduh dan
 + https://linux.die.net/man/8/ifconfig
 + https://en.wikipedia.org/wiki/Chmod
 + https://www.tecmint.com/dpkg-command-examples/
++ https://linuxconfig.org/how-to-install-google-chrome-browser-on-ubuntu-16-04-xenial-xerus-linux
++ https://askubuntu.com/questions/219545/dpkg-error-dpkg-status-database-is-locked-by-another-process
