@@ -130,7 +130,7 @@ lalu untuk meng-installnya gunakan command
 ```sh
 $ dpkg -i google-chrome-stable_current_amd64.deb
 ```
-![dpkg](img/dpkg2.JPG)  
+![dpkg](img/dpkg2.jpg)  
 
 ### 2. Administrative Command
 ##### 1. su
